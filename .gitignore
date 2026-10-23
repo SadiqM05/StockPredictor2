@@ -21,10 +21,6 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
-# Generated prediction outputs
-Backend/next_day_LSTM_*.csv
-initialFiles/next_day_prediction_*.csv
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -35,3 +31,15 @@ initialFiles/next_day_prediction_*.csv
 *.njsproj
 *.sln
 *.sw?
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts
+*.keras
+*.h5
+*.pt
+*.pth
+
+# Generated data (we'll selectively track snapshots later)
+backend/data/raw/
