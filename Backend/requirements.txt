@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-pydantic
-numpy
-pandas
-yfinance
-scikit-learn
-tensorflow
