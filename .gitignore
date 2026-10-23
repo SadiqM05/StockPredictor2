@@ -12,6 +12,19 @@ dist
 dist-ssr
 *.local
 
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated prediction outputs
+Backend/next_day_LSTM_*.csv
+initialFiles/next_day_prediction_*.csv
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
